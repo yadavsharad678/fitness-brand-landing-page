@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.hero {
+    background: url(https://imgs.search.brave.com/tFG57ta5xQ7KtTfNwLGYQtU2j3HkIaIyh9SW8NlCdV0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1wc2QvZml0/bmVzcy1udXRyaXRp/b24tbGFuZGluZy1w/YWdlLXRlbXBsYXRl/XzIzLTIxNTAyMDUy/MTMuanBnP3NlbXQ9/YWlzX2h5YnJpZA) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    background: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background: #ff4949;
+}
+.services {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+.service-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff;
+}
+.testimonials h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+.testimonials-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    font-style: italic;
+}
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.contact-form button:hover {
+    background: #ff4949;
+}
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
